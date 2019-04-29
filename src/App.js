@@ -9,7 +9,7 @@ import Result from './components/Result.jsx'
 
 function App() {
   return (
-    <Router>
+    <Router basename="/kassa">
       <div>
         <Route exact path ='/' component = {Main}/>
         <Route exact path ='/fail' component = {Fail}/>
